@@ -78,14 +78,7 @@ public class AdvanceBlocksCommands extends PlayerCommand {
     public void EditDrop(CraftPlayer craftPlayer, Material material, String worldName, String permissionNode){
         if(!Permissions.ReturnStatic().DoesPlayerHavePermission(Permission.EDIT_DROPS, craftPlayer, true)) return;
         if(!AdvanceBlocksPlugin.ReturnStatic().systemEnabled) return;
-
-        var worldContainer = AdvanceBlocks.GetContainer(worldName);
-        if(worldContainer == null){
-            Messages.ReturnStatic().SendMessageToPlayer(Message.WorldDoesNotExist, craftPlayer);
-            return;
-        }
-
-        worldContainer.OpenInventory(craftPlayer, permissionNode, material);
+        AdvanceBlocksAPI.OpenEdit(craftPlayer, material, worldName, permissionNode);
     }
 
     @PCMethodData
