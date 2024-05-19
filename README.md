@@ -4,7 +4,7 @@ Random chance to drop addtional items when a block is broken by a player!
 Plugin Forum Link: https://bukkit.org/threads/advance-blocks.503750/
 
 # Devlog
-[![Watch the video](https://img.youtube.com/vi/7A-eNlAXkg4/maxresdefault.jpg)](https://www.youtube.com/watch?v=7A-eNlAXkg4)
+[![Watch the video](https://img.youtube.com/vi/dH-m0mOXKy0/maxresdefault.jpg)](https://www.youtube.com/watch?v=dH-m0mOXKy0)
 
 # Downloads
 * 1.20.4 - [https://github.com/Closeplanet2/AdvanceBlocks/releases/tag/AdvanceBlocks-1.20.4-1.0.1-SNAPSHOT](https://github.com/Closeplanet2/AdvanceBlocks/releases/tag/AdvanceBlocks-1.20.4-1.0.1-SNAPSHOT)
